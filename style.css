@@ -9,6 +9,7 @@ header{
     top:0px;
     left:0px;
     background-attachment: fixed;
+    position: sticky;
 }
 .pustota{
     width: 40px;
@@ -22,6 +23,13 @@ a{
     color: rgb(255, 255, 255);
     padding: 20px;
     text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+article>img:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
 }
 .gl{
     padding: 50px;
@@ -91,6 +99,7 @@ ul{
 .q:hover{
     color:gray;
 }
+
 
 
 
